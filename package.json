@@ -1,0 +1,22 @@
+{
+  "name": "simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rezillien/simpeAppForOtherThings.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Rezillien/simpeAppForOtherThings/issues"
+  },
+  "homepage": "https://github.com/Rezillien/simpeAppForOtherThings#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
