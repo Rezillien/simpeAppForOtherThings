@@ -2,11 +2,15 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send('Classic Site');
+    res.send('Beta Site');
 });
 
 app.get('/feature', function(req, res){
     res.send('Classic site feature');
+});
+
+app.get('/beta_feature', function(req, res){
+    res.send('Beta site feature');
 });
 
 app.listen(8080, function () {
